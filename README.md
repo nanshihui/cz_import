@@ -3,7 +3,9 @@
 
 ## 使用说明
 １．先下载纯真IP数据软件，点击解压成txt。然后将解压的文件重命名为czdata.txt放置于当前目录下。		
+
 ２．创建数据库名字为proxy_db		
+
 ３．创建一张表存放纯真数据。建表语句如下：		
 ```mysql
 CREATE TABLE IF NOT EXISTS `iprange_info` (
